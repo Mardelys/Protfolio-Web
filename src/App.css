@@ -12,3 +12,9 @@
    --container-body-dark:#FFE2CF;
    --letter-light:#320019;
 }
+.Container{
+   background: var(--body-color-dark);
+}
+.Container.light{
+   background: var(--body-color-light);
+}

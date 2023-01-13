@@ -1,6 +1,5 @@
 import './App.css';
-import NavBar from './Components/Nav-Footer/Nav';
-import Home from './Components/Home/Home';
+import Container from './Components/Container'
 
 
 
@@ -9,8 +8,7 @@ function App() {
    return (
       
          <div className="App">
-            <NavBar />
-            <Home/>
+            <Container/>
          </div>
       
    );
