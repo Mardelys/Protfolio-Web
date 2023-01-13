@@ -13,7 +13,7 @@ export default function NavBar() {
       <>
      <header className={`header-theme ${isLight && "light"}`}>
    <a href='#' className=''><img  className="img-personal" src={require("./images/Favicon.png")} alt="" /></a>
-   <div className={`navbar ${isOpen && "open"}|| ${isLight && "light"}`} >
+   <div className={`navbar ${isOpen && "open"} ${isLight && "light"}`} >
       <li><a href="#">HOME</a></li>
       <li><a href="#">ABOUT</a></li>
       <li><a href="#">PROJECTS</a></li>
