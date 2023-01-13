@@ -1,13 +1,16 @@
 import './App.css';
-import Nav from './Components/Nav-Footer/Nav'
+import NavBar from './Components/Nav-Footer/Nav';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <Nav/>
+   return (
       
-    </div>
-  );
+         <div className="App">
+            <NavBar />
+         </div>
+      
+   );
 }
 
 export default App;
