@@ -10,12 +10,14 @@ function Home() {
             <h3><IoRemoveOutline className="outline"/>Hello</h3>
             <h1 className="title-name">I'm <b>Mardelys Torres</b></h1>
             <h2> Full stack software developer.</h2>
-            <p>
-               I'm a full-stack software developer specializing in building and
-               designing exceptional digital experiences. Every day gaining
-               experience, constantly improving and not stopping to learn.
-            </p>
-            <button>Descargar CV</button>
+            <div className="info-center">
+               <p>
+                  I'm a full-stack software developer specializing in building and
+                  designing exceptional digital experiences. Every day gaining
+                  experience, constantly improving and not stopping to learn.
+               </p>
+               <button className="download-cv">DOWNLOAD CV</button>
+            </div>
          </div>
          <div className="container-photo">
             <a href="#" className="">
