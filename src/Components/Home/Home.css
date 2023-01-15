@@ -1,9 +1,84 @@
 .home{
-   display: flex;
+   display: grid;
    margin: auto;
-   width: 70%;
-   padding-top: 6%;
+   grid-template-columns: 2.5fr 1.5fr;
+   width: 80%;
    align-items: center;
-   
+   justify-content: center;
    
 }
+.home h3{
+align-items: center;
+color: var(--orange);
+font-size:clamp(1rem, 2vw, 1.5rem) ;
+}
+.home .outline{
+   width: 50px;
+}
+.home .title-name{
+   font-size: clamp(3rem, 6vw, 5rem);
+   font-weight: 300;
+   font-family: 'Oleo Script', Arial, Helvetica, sans-serif;
+}
+.home .title-name b{
+   font-family: 'Oleo Script', Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   color: var(--pink);
+}
+.home  h2{
+   font-size: clamp(1.5rem, 3vw, 3rem);
+   color: var(--orange);
+}
+.container-info p{
+   font-size:clamp(1.1rem, 2vw, 1.3rem) ;
+   font-family: 'Lato';
+   color: var(--body-color-dark);
+}
+.img-ejp{
+   width: 100%;
+   margin: 0;
+   padding:0 ;
+   border-bottom-right-radius:30% ;
+}
+.container-photo{
+   background-image: var(--gradient-dark);
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 30%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 10%;
+ 
+}
+
+@media (max-width:1280px){
+   .home{
+      width: 80%;
+      transition:all .50s ease;
+   }
+   
+}
+@media (max-width:890px){
+      .home{
+         width: 90%;
+         margin: 2%;
+         transition:all .50s ease;
+      }
+   }
+
+   @media (max-width:590px){
+      .img-ejp{
+         display: flex;
+         position:initial;
+         width: 70%;
+         margin: auto;
+        
+      }
+
+      .container-info{
+         margin-top: 30px;
+      }
+      .home{
+         display: flex;
+        flex-direction: column-reverse;
+        transition:all .50s ease;
+      }
+   }

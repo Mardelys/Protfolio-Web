@@ -1,12 +1,14 @@
 import "./Home.css";
+import {IoRemoveOutline} from 'react-icons/io5'
+
 
 function Home() {
    return (
       
       <div className="home">
-         <div>
-            <h3>Hello</h3>
-            <h1>I'm Mardelys Torres</h1>
+         <div className="container-info">
+            <h3><IoRemoveOutline className="outline"/>Hello</h3>
+            <h1 className="title-name">I'm <b>Mardelys Torres</b></h1>
             <h2> Full stack software developer.</h2>
             <p>
                I'm a full-stack software developer specializing in building and
@@ -19,7 +21,7 @@ function Home() {
             <a href="#" className="">
                <img
                   className="img-ejp"
-                  src={require("../Nav-Footer/images/Favicon.png")}
+                  src={require("./foto.png")}
                   alt=""
                />
             </a>
