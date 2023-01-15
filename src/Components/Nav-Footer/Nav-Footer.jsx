@@ -44,9 +44,12 @@ export default function NavBar() {
 export function Footer() {
    
    return (
+
       <div className="footer">
-         <p>Designed & built by Mardelys Torres </p>
-         <a href="#">mardelys1996@gmail.com </a>
-         
+         <a href='#' className=''><img  className="img-personall" src={require("./images/Favicon.png")} alt="" /></a>
+         <div>
+            <p>Designed & built by Mardelys Torres </p>
+            <a href="#">mardelys1996@gmail.com </a>
+         </div>
       </div>
    )}

@@ -257,9 +257,10 @@ header{
 
 /**--------------FOOTER-----------**/
 footer, .footer{
+   display: flex;
    width: 100%;
    justify-content: center;
-   padding: 3% 0;
+   padding: 1% 0;
    text-align: center;
    background: var(--container-body-light);
 }
@@ -268,6 +269,12 @@ footer, .footer{
    font-size:clamp(1.3rem, 2vw, 1.3rem) ;
    font-family: 'Oleo Script',Arial, Helvetica, sans-serif;
    color: var(--orange);
+}
+.footer div{
+   margin-left: 5%;
+}
+.img-personall {
+   width: 100px;
 }
 .footer a{
    text-decoration: none;
