@@ -1,4 +1,4 @@
-import NavBar from '../Components/Nav-Footer/Nav';
+import NavBar,{Footer} from '../Components/Nav-Footer/Nav-Footer';
 import Home from '../Components/Home/Home';
 
 
@@ -10,6 +10,7 @@ function Container() {
          <div className="Container">
             <NavBar />
             <Home/>
+            <Footer/>
          </div>
       
    );

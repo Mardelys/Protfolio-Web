@@ -253,3 +253,26 @@ header{
 }
 
 }
+
+
+/**--------------FOOTER-----------**/
+footer, .footer{
+   width: 100%;
+   justify-content: center;
+   padding: 3% 0;
+   text-align: center;
+   background: var(--container-body-light);
+}
+
+.footer p{
+   font-size:clamp(1.3rem, 2vw, 1.3rem) ;
+   font-family: 'Oleo Script',Arial, Helvetica, sans-serif;
+   color: var(--orange);
+}
+.footer a{
+   text-decoration: none;
+   color: var(--letter-light);
+   font-family: 'Lato',Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size:clamp(1.1rem, 2vw, 1.3rem) ;
+}

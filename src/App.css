@@ -11,7 +11,7 @@
    --gradient-dark:linear-gradient( 181deg,  rgba(255,0,130,0.67) 1.7%, rgba(255,116,30,0.75) 91.3% );
    /*-------------Variables Theme light--------------*/
    --body-color-light :#FFE9DB;
-   --container-body-light:#FFE2CF;
+   --container-body-light:#ffd6bb;
    --letter-light:#320019;
 }
 body{

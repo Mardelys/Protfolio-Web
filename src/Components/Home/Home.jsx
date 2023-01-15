@@ -23,7 +23,7 @@ function Home() {
             <a href="#" className="">
                <img
                   className="img-ejp"
-                  src={require("./foto.png")}
+                  src={require("./images/foto.png")}
                   alt=""
                />
             </a>

@@ -40,3 +40,13 @@ export default function NavBar() {
 
    )
 }
+
+export function Footer() {
+   
+   return (
+      <div className="footer">
+         <p>Designed & built by Mardelys Torres </p>
+         <a href="#">mardelys1996@gmail.com </a>
+         
+      </div>
+   )}
