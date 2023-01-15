@@ -20,13 +20,12 @@ function Home() {
             </div>
          </div>
          <div className="container-photo">
-            <a href="#" className="">
                <img
                   className="img-ejp"
                   src={require("./images/foto.png")}
                   alt=""
                />
-            </a>
+            
          </div>
       </div>
    );

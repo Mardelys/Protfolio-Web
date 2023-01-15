@@ -1,0 +1,87 @@
+.container-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 7% 0;
+  padding: 6% 0;
+  background: var(--container-body-light);
+}
+
+.section-1,
+.section-2 {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 2.5fr;
+  margin: auto;
+}
+.img-about {
+  width: 90%;
+}
+.section-1 div h2,
+.section-2 div h2 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  color: var(--pink);
+  padding: 3% 0;
+  text-align: center;
+  font-family: "Oleo Script";
+  font-weight: 300;
+}
+.section-1 div p {
+  text-indent: 25px;
+  padding-bottom: 3%;
+  font-size: clamp(1.1rem, 2vw, 1.2rem);
+  font-family: "Lato";
+  color: var(--body-color-dark);
+  text-align: left;
+}
+hr.line {
+  margin: 3.5% 0px;
+}
+
+
+
+
+
+/**---MEDIA QUERIES------*/
+@media (max-width:1280px){
+   .section-1, .section-2{
+      width: 80%;
+      transition: all .50s ease;
+   }
+}
+
+@media (max-width:890px){
+   .section-1, .section-2{
+      width: 90%;
+      margin: 2%;
+      transition: all .50s ease;
+   }
+}
+
+@media (max-width: 630px) {
+
+   .container-about .section-1{
+  display: flex;
+  transition: all 0.5s ease;}
+
+.section-1, .section-2{
+   width: 90%;
+   margin: auto;
+}
+.img-about{
+   width: 90px;
+   height: 110px;
+   background: var(--gradient-dark);
+   border-radius: 50%;
+}
+
+.section-1 p{
+   margin: 5% 0;
+}
+}
+
+@media (max-width: 400px) {
+   .img-about{
+      display: none;
+   }
+}
