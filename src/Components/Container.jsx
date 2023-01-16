@@ -1,8 +1,8 @@
 import NavBar,{Footer} from '../Components/Nav-Footer/Nav-Footer';
 import Home from '../Components/Home/Home';
 import AboutMe from './About-Contact/About';
-import ContainerProjects from './Projects/ContainerProjects';
-
+import Contact from './About-Contact/Contact'
+import RenderProjects from './Projects/ContainerProjects';
 
 
 
@@ -13,7 +13,8 @@ function Container() {
             <NavBar />
             <Home/>
             <AboutMe/>
-            <ContainerProjects/>
+            <RenderProjects/>
+            <Contact/>
             <Footer/>
          </div>
       

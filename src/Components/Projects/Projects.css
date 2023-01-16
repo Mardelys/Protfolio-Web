@@ -6,27 +6,44 @@
 }
 .section-projects{
    font-family: 'Lato' Arial, Helvetica, sans-serif;
-   padding: 50px;
-   display: flex;
    align-items: center;
    justify-content: center;
+   text-align: center;
 
 }
-.container-projects{
+
+.section-projects h2{
+   font-size: clamp(2rem, 3vw, 2.5rem);
+   color: var(--pink);
+   padding: 3% 0;
+   text-align: center;
+   font-family: "Oleo Script";
+   font-weight: 300;
+   border-bottom: 3px var(--orange) solid;
+   margin: 0 150px;
+   
+ }
+
+
+
+
+ .container-projects{
+
+   width: 80%;
    display: flex;
-   flex-wrap: wrap;
-   width: 85%;
-   gap: 15px;
-   margin: 5% auto;
+flex-wrap: wrap;
    justify-items: center;
    align-items: center;
+  margin: 0 auto ;
+  margin-bottom: 8%;
+  
 }
 
 .card-project{
    height: 199px;
    width: 22rem;
+   margin: 2% ;
    overflow: hidden;
-   margin: auto;
    padding: 0px 10px 0px 10px;
    border-radius: 2%;
    border: 1px solid #fff;
@@ -37,22 +54,28 @@
 }
 
 .card-project:hover{
-   height: 420px;
+   height: 430px;
    width: 22rem;
    border-radius: 5px;
    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .card-header h1{
-   font-size: 20px;
+   font-size: clamp(1rem, 3vw, 1.4rem);
    padding: 5%;
+   font-weight: 700;
+   color: var(--orange);
+   border-bottom: var(--pink 1px solid);
 }
 .card-header img{
    position:relative;
    border-radius: 2%;
    display: block;
-   width: 100%;
+   width: 250px;
    padding: 0;
-   margin: 0;
+   margin: auto;
+  border-left: var(--pink) 5px solid;
+  border-bottom: var(--orange) 5px solid;
    object-fit: cover;
    transition: all 0.3s ease;
 }
@@ -62,11 +85,11 @@
    align-items: center;
    justify-content: center;
    margin: 0;
-   margin: 10% 15px 0 5px;
+  
 }
 
 .icon-tecnology li {
-  font-size: clamp(1rem,3vw,1rem);
+  font-size: clamp(1rem,4vw,2rem);
    line-height: 40px;
    text-align: center;
    transform: scale(1);
@@ -93,7 +116,12 @@
 .container-info .info p{
    justify-content: left;
    margin-left: 2%;
-   margin-top: 0;
+   padding: 1% 3%;
+   width: 95%;
+   height: 10vh;
+   background:rgb(255, 234, 216) ;
+   font-size: small;
+
 }
 .icon-tecnology li:nth-child(3){
    color: #fffb00;
@@ -102,14 +130,26 @@
    color: #069ff8;
 }
 .icons a .icon-external{
-   font-size: 2.2rem;
-   margin-left: 15%;
+   font-size: 3rem;
+   margin: 10%;
    padding: 1%;
+
    
 }
-.icons {
+.icons a{
    margin-top: 20px;
    padding-bottom: 30px;
+   color: var(--pink);
+}
+.btn-category{
+   margin: 2%;
+}
+/**-----------Botones de filtro-------**/
+
+
+.section-projects button.button-filter {
+margin-left: 10px;
+
 }
 /**-----------MEDIA QUERIES-----------------*/
 
@@ -123,17 +163,11 @@
    .card-project:hover{
       width: 20rem;
    }
-   
-}
-@media (max-width:950px){
-   .card-project{
-      width: 18rem;
-    
+    div.container-projects{
+      margin: 0 auto;
+      margin-right: 0%;
    }
    
-   .card-project:hover{
-      width: 18rem;
-   }
 }
 
 
@@ -149,7 +183,10 @@
       transition: all .50s ease;
     
    }
-   
+  div .container-projects{
+      margin:0  auto;
+      margin-right: 0%;
+   }
    .card-project:hover{
       width: 15rem;
    }
@@ -161,9 +198,19 @@
       width: 14rem;
       transition: all .50s ease;
    }
-   
+   .card-header img{
+      width: 300px;
+   }
    .card-project:hover{
-      width: 14rem;
+      width: 20rem;
+   }
+   div .container-projects{
+      margin: auto;
+      margin-right: 0%;
+   }
+   .btn-category{
+      padding: 1% 3%;
+      font-size: 15px;
    }
 }
 @media (max-width: 690px){
@@ -174,6 +221,6 @@
    }
    
    .card-project:hover{
-      width: 20rem;
+      width: 19rem;
    }
 }

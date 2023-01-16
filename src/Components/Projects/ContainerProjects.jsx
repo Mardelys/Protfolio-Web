@@ -1,60 +1,99 @@
-import React,{useState} from "react";
-import CardProject from './CardProject'
-import './Projects.css'
-import { CardProject, ButtonList } from './components';
+/*Estos son las dependencias que tiene con el otro comentario*/
+import React from "react";
+import "./Projects.css";
+import { IoRemoveOutline } from 'react-icons/io5'
+
+/*--------------AQUI INTENTO DE FILTROS-----dependencias ------*/
 
 
-export default function Projects(){
+import { useState } from 'react';
+import { ButtonList } from "./ButtonList";
+import { ProjectsList } from "./CardProject";
+import data from './data';
+
+/*Aqui filtro y componente nuevo*/
+function RenderProjects() {
    const allCategories = [
-		'All',
-		...new Set(data.map(article => article.category)),
-	];
+      'All',
+      ...new Set(data.map(project => project.category)),
+   ];
 
-	const [categories, setCategories] = useState(allCategories);
-	const [articles, setArticles] = useState(data);
+   const [categories, setCategories] = useState(allCategories);
+   const [projects, setProjects] = useState(data);
 
-	const filterCategory = (category) => {
-		if (category === 'All'){
-			setArticles(data)
-			return
-		}
+   const filterCategory = (category) => {
+      if (category === 'All') {
+         setProjects(data)
+         return
+      }
 
-		const filteredData = data.filter(article => article.category === category);
-		setArticles(filteredData)
-	}
+      const filteredData = data.filter(project => project.category === category);
+      setProjects(filteredData)
+   }
 
-	return (
-		<>
-			<div className='title'>
-				<h1>
-					Filter <span>Blog</span> Basics
-				</h1>
-				<img
-					src='https://blogfilterbasics.netlify.app/static/media/img-portada.8261f3883a73550017d1.png'
-					alt='imagen-header'
-				/>
-			</div>
+   return (
+      <>
+         <div className="section-projects ">
+            
+            <h2><IoRemoveOutline className="outline" />Projects</h2>
+            
 
-			<ButtonList categories={categories} filterCategory={filterCategory}/>
-
-			<ArticleList articles={articles}/>
-		</>
-	);
+             
+               <ButtonList categories={categories} filterCategory={filterCategory} />
+            
+            
+               <ProjectsList projects={projects} />
+            
+         </div>
+      </>
+   );
 }
 
-      {/*<div className="section-projects">
-         <div>
-            <h1>Projects</h1>
-            <div>
-               <button>All</button>
-               <button>My Work</button>
-               <button>Collaborations</button>
-            </div>
-            <div className="container-projects">
-           
-            
-            </div>
-         </div>
+export default RenderProjects;
 
-   </div>*/}
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+--------SOLO SERIA BORRAR LO QUE INDICO SI SALE MAL otra vez y volver a todo a la normalidad----
+export default function ContainerProjects() {
+  return (
+    <div className="section-projects">
+      <div>
+        
+        <div>
+          <button className="button-filter" on>All</button>
+          <button className="button-filter">My Work</button>
+          <button className="button-filter">Collaborations</button>
+        </div>
+        <div className="container-projects">
+          <Projects />
+          <Projects />
+          <Projects />
+          <Projects />
+          <Projects />
+          <Projects />
+          <Projects />
+        </div>
+      </div>
+    </div>
+  );
+}*/
+
+

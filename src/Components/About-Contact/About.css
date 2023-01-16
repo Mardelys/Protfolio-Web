@@ -8,7 +8,7 @@
 }
 
 .section-1,
-.section-2 {
+.section-2, .container-contact {
   display: grid;
   width: 70%;
   grid-template-columns: 1fr 2.5fr;
@@ -23,7 +23,8 @@
   border-bottom-left-radius: 20%;
 }
 .section-1 div h2,
-.section-2 div h2 {
+.section-2 div h2,
+.container-contact h2 {
   font-size: clamp(2rem, 3vw, 2.5rem);
   color: var(--pink);
   padding: 3% 0;
@@ -31,7 +32,7 @@
   font-family: "Oleo Script";
   font-weight: 300;
 }
-.section-1 div p {
+.section-1 div p, .container-contact p {
   text-indent: 25px;
   padding-bottom: 3%;
   font-size: clamp(1.1rem, 2vw, 1.2rem);
@@ -91,19 +92,56 @@
 .icon-skills > li:nth-child(8){
    color: #00b7ff;
 }
+/**-----------CONTACT-------------**/
 
+.container-contact{
+   width: 100%;
+   background: var(--container-body-light);
+   padding-top: 2%;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   
+   
+}
+.container-contact p{
+   padding-top:2%
+   };
+
+
+
+.container-contact h2{
+   border-bottom: 3px var(--orange) solid;
+}
+
+.container-contact div{
+   text-align: center;
+   width: 70%;
+   justify-content: left;
+   margin: auto;}
+
+   .button-contact{
+      margin: 1% 5%;
+   }
+   .container-button{
+      padding-bottom: 2%;
+   }
+   button:hover{
+      background-color: #fa640d2f;
+      box-shadow: var(--pink) 0px 0px 15px;
+   }
 
 
 /**---MEDIA QUERIES------*/
 @media (max-width:1280px){
-   .section-1, .section-2{
+   .section-1, .section-2, .container-contact p{
       width: 80%;
       transition: all .50s ease;
    }
 }
 
 @media (max-width:890px){
-   .section-1, .section-2{
+   .section-1, .section-2, .container-contact p{
       width: 90%;
       margin: 2%;
       transition: all .50s ease;
@@ -120,7 +158,7 @@
   transition: all 0.5s ease;}
 
 .section-1, .section-2{
-   width: 90vw;
+   width: 95vw;
    margin: auto;
    display: flex;
    flex-direction: column;
@@ -149,6 +187,9 @@
 @media (max-width: 400px) {
    .img-about{
       display: none;
+   }
+   .container-contact div{
+      width: 90%;
    }
    .section-1 h2{
       margin: 0;
