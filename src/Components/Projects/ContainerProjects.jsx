@@ -35,7 +35,7 @@ function RenderProjects() {
       <>
          <div className="section-projects ">
             
-            <h2><IoRemoveOutline className="outline" />Projects</h2>
+            <h2><IoRemoveOutline className="outline" />Proyectos</h2>
             
 
              

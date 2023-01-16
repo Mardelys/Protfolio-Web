@@ -15,9 +15,9 @@ export default function AboutMe() {
                <img className="img-about" src={require("./images/foto.jpg")} alt="" />
             </div>
             <div>
-               <h2><IoRemoveOutline className="outline" />About Me</h2>
-               <p>Hello, my name is Mardelys Torres, I enjoy creating and developing websites, I like interface design and putting it into practice every time I develop a project fills me with joy and satisfaction by appreciating how much progress I have made with time and practice. I started learning as a self-taught person in 2021 and managed to learn HTML and css, however, I learned a lot by taking the Educamás programming bootcamp "Programate Academy".</p>
-               <p>My main focus is to create applications that are useful and pleasant to the user, develop complete projects and that satisfy the needs of the client.</p>
+               <h2><IoRemoveOutline className="outline" />Acerca de mí</h2>
+               <p>Hola, mi nombre es Mardelys Torres, disfruto creando y desarrollando sitios web, me gusta el diseño de interfaces y ponerlo en práctica cada vez que desarrollo un proyecto me llena de alegría y satisfacción al apreciar cuánto he avanzado con el tiempo y práctica. Empecé a aprender como autodidacta en 2021 y logré aprender HTML y css, sin embargo, aprendí mucho tomando el bootcamp de programación de Educamás "Programate Academy" de donde soy egresada.</p>
+               <p>Mi enfoque principal es crear aplicaciones que sean útiles y agradables para el usuario, desarrollar proyectos completos y que satisfagan las necesidades del cliente. Además de todo, obtener nuevos conocimientos y habilidades por cada reto que completo satisfactoriamente y sobre cualquier cosa siempre dar lo mejor de mi.</p>
             </div>
          </div>
          <div className="section-2">

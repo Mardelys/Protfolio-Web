@@ -13,10 +13,10 @@ export default function NavBar() {
      <header className="header-theme">
    <a href='#' className=''><img  className="img-personal" src={require("./images/Favicon.png")} alt="" /></a>
    <div className={`navbar ${isOpen && "open"}`} >
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">PROJECTS</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="#">INICIO</a></li>
+      <li><a href="#">CONÓCEME</a></li>
+      <li><a href="#">PROYECTOS</a></li>
+      <li><a href="#">CONTACTO</a></li>
    </div>
    <div className='main'>
       <a href='#' className="btn-cv">CV</a>
@@ -48,7 +48,7 @@ export function Footer() {
       <div className="footer">
          <a href="#"><img  className="img-personall" src={require("./images/Favicon.png")} alt="" /></a>
          <div>
-            <p>Designed & built by Mardelys Torres </p>
+            <p>Diseñado y construido por Mardelys Torres </p>
             <a href="mailto:mardelys1996@gmail.com">mardelys1996@gmail.com </a>
          </div>
       </div>

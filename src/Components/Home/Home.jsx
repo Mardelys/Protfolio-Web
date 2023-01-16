@@ -7,16 +7,16 @@ function Home() {
       
       <div className="home">
          <div className="container-info">
-            <h3><IoRemoveOutline className="outline"/>Hello</h3>
-            <h1 className="title-name">I'm <b>Mardelys Torres</b></h1>
+            <h3><IoRemoveOutline className="outline"/>Hola</h3>
+            <h1 className="title-name">Soy  <b>Mardelys Torres</b></h1>
             <h2> Full stack software developer.</h2>
             <div className="info-center">
                <p>
-                  I'm a full-stack software developer specializing in building and
-                  designing exceptional digital experiences. Every day gaining
-                  experience, constantly improving and not stopping to learn.
+               Soy un desarrollador de software full-stack capáz de construir y
+                  diseñar experiencias digitales excepcionales, cada día ganando
+                  experiencia, mejorando constantemente y sin parar de aprender. !Conóceme!
                </p>
-               <button className="download-cv">DOWNLOAD CV</button>
+               <button className="download-cv">DESCARGAR CV</button>
             </div>
          </div>
          <div className="container-photo">

@@ -7,10 +7,10 @@ export default function Contact(){
    return(
       <div className="container-contact">
          <div>
-            <h2><IoRemoveOutline className="outline"/> Get In Touch</h2>
-            <p>Thank you for getting here, at the moment I do not have work experience, I am looking for an opportunity and my first job. If you have questions or need more information about me, write a message, or if you just want to say hello, I'll be happy to answer.</p>
+            <h2><IoRemoveOutline className="outline"/> Contáctame</h2>
+            <p>Gracias por llegar hasta aquí, por el momento no tengo experiencia laboral, estoy buscando una oportunidad y mi primer empleo. Si tienes dudas o necesitas más información sobre mí, escribe un mensaje, o si solo quieres saludarme, estaré encantada de atenderte.</p>
             <p>
-            Thank you for taking the time to look at what I do, you can contact me directly at my email or whatsapp if it is your preference, I will respond soon with great pleasure.
+            Gracias por tomarte el tiempo de mirar lo que hago, puedes contactarme directamente a mi correo o whatsapp si es de tu preferencia, te responderé a la brevedad con mucho gusto.
             </p>
          </div>
          <div className="container-button">

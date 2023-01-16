@@ -71,7 +71,7 @@ flex-wrap: wrap;
    position:relative;
    border-radius: 2%;
    display: block;
-   width: 250px;
+   width: 300px;
    padding: 0;
    margin: auto;
   border-left: var(--pink) 5px solid;
@@ -116,9 +116,9 @@ flex-wrap: wrap;
 .container-info .info p{
    justify-content: left;
    margin-left: 2%;
-   padding: 1% 3%;
+   padding: 0 3%;
    width: 95%;
-   height: 10vh;
+   height: fit-content;
    background:rgb(255, 234, 216) ;
    font-size: small;
 
@@ -130,8 +130,8 @@ flex-wrap: wrap;
    color: #069ff8;
 }
 .icons a .icon-external{
-   font-size: 3rem;
-   margin: 10%;
+   font-size: 2.5rem;
+   margin: 2% 10%;
    padding: 1%;
 
    
