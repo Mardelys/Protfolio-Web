@@ -58,7 +58,8 @@ button, .download-cv{
    width: 90%;
    margin: 0;
    padding:0 ;
-   border-bottom-right-radius:22% ;
+   border-bottom-right-radius:60% ;
+   border-bottom-left-radius: 10%;
 }
 .container-photo{
    background-image: var(--gradient-dark);
@@ -78,7 +79,7 @@ button, .download-cv{
 }
 @media (max-width:890px){
       .home{
-         width: 90%;
+         width: 87%;
          margin: auto;
          transition: all .50s ease;
       }

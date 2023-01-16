@@ -1,7 +1,10 @@
 import React from "react"
-import { IoRemoveOutline } from 'react-icons/io5'
 import './About.css'
-
+import { IoRemoveOutline, IoLogoVercel } from 'react-icons/io5'
+import { TbBrandJavascript } from 'react-icons/tb'
+import {SiNetlify } from 'react-icons/si'
+import { FaHtml5, FaCss3Alt, FaReact, FaGithubAlt,FaGitAlt } from 'react-icons/fa'
+import './About.css'
 
 export default function AboutMe() {
 
@@ -9,7 +12,7 @@ export default function AboutMe() {
       <div className="container-about">
          <div className="section-1">
             <div >
-               <img className="img-about" src={require("./images/foto.png")} alt="" />
+               <img className="img-about" src={require("./images/foto.jpg")} alt="" />
             </div>
             <div>
                <h2><IoRemoveOutline className="outline" />About Me</h2>
@@ -17,23 +20,20 @@ export default function AboutMe() {
                <p>My main focus is to create applications that are useful and pleasant to the user, develop complete projects and that satisfy the needs of the client.</p>
             </div>
          </div>
-         <hr className="line" />
          <div className="section-2">
             <div >
                <h2>My Skills</h2>
             </div>
             <div>
                <ul className="icon-skills">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li><FaHtml5/></li>
+                  <li><FaCss3Alt/></li>
+                  <li><TbBrandJavascript/></li>
+                  <li> <FaReact/></li>
+                  <li> <FaGithubAlt/></li>
+                  <li><FaGitAlt/></li>
+                  <li><IoLogoVercel/></li>
+                  <li><SiNetlify/></li>
                </ul>
             </div>
          </div>

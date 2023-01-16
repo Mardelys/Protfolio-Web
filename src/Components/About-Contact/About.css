@@ -13,9 +13,14 @@
   width: 70%;
   grid-template-columns: 1fr 2.5fr;
   margin: auto;
+  align-items: center;
 }
 .img-about {
   width: 90%;
+  border-left: var(--orange) 5px solid ;
+  border-bottom: var(--pink) 5px solid ;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
 }
 .section-1 div h2,
 .section-2 div h2 {
@@ -33,12 +38,59 @@
   font-family: "Lato";
   color: var(--body-color-dark);
   text-align: left;
+ 
 }
-hr.line {
+.section-1 h2{
   margin: 3.5% 0px;
+  border-bottom: 2px var(--orange) solid;
+}
+.section-2 .icon-skills{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 3%;
+   padding: 3% 3%;
+   font-size: clamp(2rem, 5vw, 3rem);
+   border-top: 2px var(--orange) solid;
+
 }
 
+.icon-skills li{
+   margin: 10% 0;
+   background: #ffead686;
+   text-align: center;
+   align-items: center;
+   padding: 5% 0;
+   border-radius: 20px;
+}
+.icon-skills li:hover{
+   transition: all .50s ease-in-out;
+   background: none;
 
+}
+.icon-skills > li:nth-child(1){
+   color: var(--orange);
+}
+.icon-skills > li:nth-child(2){
+   color: #1900ff;
+}
+.icon-skills > li:nth-child(3){
+   color: #ffe600;
+}
+.icon-skills > li:nth-child(4){
+   color: #00b7ff;
+}
+.icon-skills > li:nth-child(5){
+   color: #292727;
+}
+.icon-skills > li:nth-child(6){
+   color: #ff5100;
+}
+.icon-skills > li:nth-child(7){
+   color: #000;
+}
+.icon-skills > li:nth-child(8){
+   color: #00b7ff;
+}
 
 
 
@@ -60,28 +112,46 @@ hr.line {
 
 @media (max-width: 630px) {
 
+   .container-about{
+      width: 100%;
+   }
    .container-about .section-1{
   display: flex;
   transition: all 0.5s ease;}
 
 .section-1, .section-2{
-   width: 90%;
+   width: 90vw;
    margin: auto;
+   display: flex;
+   flex-direction: column;
+   
 }
 .img-about{
-   width: 90px;
-   height: 110px;
-   background: var(--gradient-dark);
+   width: 120px;
+   height: 148px;
    border-radius: 50%;
+   position: absolute;
+   left: 5%;
 }
-
+.section-1 h2{
+   margin: 40px 0;
+   border-bottom: none;
+}
 .section-1 p{
    margin: 5% 0;
 }
+.icon-skills li{
+  padding: 10px 20px;
 }
+}
+
 
 @media (max-width: 400px) {
    .img-about{
       display: none;
+   }
+   .section-1 h2{
+      margin: 0;
+      border-bottom: var(--orange) 2px solid;
    }
 }
