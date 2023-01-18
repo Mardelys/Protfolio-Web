@@ -34,7 +34,7 @@ function RenderProjects() {
             <h2><IoRemoveOutline className="outline" />Proyectos</h2>
             
 
-             
+            
                <ButtonList categories={categories} filterCategory={filterCategory} />
             
             
