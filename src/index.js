@@ -4,7 +4,11 @@ import './index.css';
 import App from './App';
 
 
+
+
+
 import reportWebVitals from './reportWebVitals';
+import { SiScrollreveal } from 'react-icons/si';
 /*import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';*/
 
