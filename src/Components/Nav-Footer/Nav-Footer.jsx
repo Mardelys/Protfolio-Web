@@ -2,6 +2,7 @@ import  React,{useState} from 'react'
 import './Nav.css'
 import {BsFillMoonFill, BsFillSunFill,BsGithub, BsInstagram, BsWhatsapp} from 'react-icons/bs'
 import {GrLinkedinOption} from 'react-icons/gr'
+import { Link } from 'react-router-dom'
 
 
 
@@ -13,10 +14,10 @@ export default function NavBar() {
      <header className="header-theme">
    <a href='#' className=''><img  className="img-personal" src={require("./images/Favicon.png")} alt="" /></a>
    <div className={`navbar ${isOpen && "open"}`} >
-      <li><a href="#">INICIO</a></li>
-      <li><a href="#">CONÓCEME</a></li>
-      <li><a href="#">PROYECTOS</a></li>
-      <li><a href="#">CONTACTO</a></li>
+      <li><a href="#home">INICIO</a></li>
+      <li><a href="#aboutme">CONÓCEME</a></li>
+      <li><a href="#projects">PROYECTOS</a></li>
+      <li><a href="#contact">CONTACTO</a></li>
    </div>
    <div className='main'>
       <a href='#' className="btn-cv">CV</a>

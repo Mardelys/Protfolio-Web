@@ -9,7 +9,7 @@ import './About.css'
 export default function AboutMe() {
 
    return (
-      <div className="container-about">
+      <div className="container-about" id="aboutme">
          <div className="section-1">
             <div >
                <img className="img-about" src={require("./images/foto.jpg")} alt="" />

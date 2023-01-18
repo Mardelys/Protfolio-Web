@@ -78,6 +78,7 @@ flex-wrap: wrap;
   border-bottom: var(--orange) 5px solid;
    object-fit: cover;
    transition: all 0.3s ease;
+   cursor: pointer;
 }
 .icon-tecnology ul{
    display: flex;

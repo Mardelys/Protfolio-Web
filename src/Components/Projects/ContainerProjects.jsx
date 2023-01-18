@@ -29,7 +29,7 @@ function RenderProjects() {
 
    return (
       <>
-         <div className="section-projects ">
+         <div className="section-projects " id="projects">
             
             <h2><IoRemoveOutline className="outline" />Proyectos</h2>
             

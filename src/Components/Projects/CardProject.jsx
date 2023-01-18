@@ -15,7 +15,7 @@ export const ProjectsList = ({ projects }) => {
                <div className="card-body">
                   <div className="card-header">
                      <h1>{project.title}</h1>
-                     <img className="img-project" src={require(`./images/img-${project.image}.png`)} alt="" />
+                    <a target="_blank" href={project.link}> <img  className="img-project" src={require(`./images/img-${project.image}.png`)} alt="" /></a>
                   </div>
                   <div className="icon-tecnology" >
                      <ul>
@@ -29,8 +29,8 @@ export const ProjectsList = ({ projects }) => {
                   <div className="container-info">
                      <div className="info"><p>{project.description}</p></div>
                      <div className="icons">
-                        <a href={project.link}><FiExternalLink className="icon-external" /></a>
-                        <a href={project.github}><FaGithub className="icon-external" /></a>
+                        <a tarjet="_blank" href={project.link}><FiExternalLink className="icon-external" /></a>
+                        <a target="_blank" href={project.github}><FaGithub className="icon-external" /></a>
                      </div>
                   </div>
                </div>

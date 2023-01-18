@@ -5,7 +5,7 @@ import { IoRemoveOutline } from 'react-icons/io5'
 
 export default function Contact(){
    return(
-      <div className="container-contact">
+      <div className="container-contact" id="contact">
          <div>
             <h2><IoRemoveOutline className="outline"/> Contáctame</h2>
             <p>Gracias por llegar hasta aquí, por el momento no tengo experiencia laboral, estoy buscando una oportunidad y mi primer empleo. Si tienes dudas o necesitas más información sobre mí, escribe un mensaje, o si solo quieres saludarme, estaré encantada de atenderte.</p>

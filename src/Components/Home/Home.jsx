@@ -5,7 +5,7 @@ import {IoRemoveOutline} from 'react-icons/io5'
 function Home() {
    return (
       
-      <div className="home">
+      <div className="home" id="home">
          <div className="container-info">
             <h3><IoRemoveOutline className="outline"/>Hola</h3>
             <h1 className="title-name">Soy  <b>Mardelys Torres</b></h1>
