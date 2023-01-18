@@ -15,7 +15,7 @@ export const ProjectsList = ({ projects }) => {
                <div className="card-body">
                   <div className="card-header">
                      <h1>{project.title}</h1>
-                    <a target="_blank" href={project.link}> <img  className="img-project" src={require(`./images/img-${project.image}.png`)} alt="" /></a>
+                   <img  className="img-project" src={require(`./images/img-${project.image}.png`)} alt="" />
                   </div>
                   <div className="icon-tecnology" >
                      <ul>

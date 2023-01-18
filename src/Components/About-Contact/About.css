@@ -25,7 +25,7 @@
 .section-1 div h2,
 .section-2 div h2,
 .container-contact h2 {
-  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-size: clamp(2rem, 3vw, 2.3rem);
   color: var(--pink);
   padding: 3% 0;
   text-align: center;
@@ -35,7 +35,7 @@
 .section-1 div p, .container-contact p {
   text-indent: 25px;
   padding-bottom: 3%;
-  font-size: clamp(1.1rem, 2vw, 1.2rem);
+  font-size: clamp(1.1rem, 2vw, 1.1rem);
   font-family: "Lato";
   color: var(--body-color-dark);
   text-align: left;
@@ -66,6 +66,8 @@
 .icon-skills li:hover{
    transition: all .50s ease-in-out;
    background: none;
+   font-size: clamp(2.2rem, 5vw, 3.4rem);
+   transition: all .70s ease;
 
 }
 .icon-skills > li:nth-child(1){

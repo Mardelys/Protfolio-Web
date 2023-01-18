@@ -1,7 +1,7 @@
 .home{
    display: grid;
    margin: auto;
-   grid-template-columns: 2.5fr 1.5fr;
+   grid-template-columns: 2.3fr 1.5fr;
    width: 70%;
    align-items: center;
    justify-content: center;
@@ -10,13 +10,13 @@
 .home h3{
 align-items: center;
 color: var(--orange);
-font-size:clamp(1rem, 2vw, 1.5rem) ;
+font-size:clamp(1rem, 2vw, 1.2rem) ;
 }
 .home .outline{
    width: 50px;
 }
 .home .title-name{
-   font-size: clamp(2.5rem, 6vw, 5rem);
+   font-size: clamp(2.5rem, 6vw, 4.2rem);
    font-weight: 300;
    font-family: 'Oleo Script', Arial, Helvetica, sans-serif;
 }
@@ -26,11 +26,11 @@ font-size:clamp(1rem, 2vw, 1.5rem) ;
    color: var(--pink);
 }
 .home  h2{
-   font-size: clamp(1.5rem, 3vw, 2.2rem);
+   font-size: clamp(1.5rem, 3vw, 1.8rem);
    color: var(--orange);
 }
 .container-info p{
-   font-size:clamp(1.1rem, 2vw, 1.3rem) ;
+   font-size:clamp(1.1rem, 2vw, 1.2rem) ;
    font-family: 'Lato';
    color: var(--body-color-dark);
    text-align: left;

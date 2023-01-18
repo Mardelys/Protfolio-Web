@@ -18,10 +18,7 @@ body{
    color: var(--orange);
    
 }
-.icon-theme{
-   font-size: 18px;
-   margin: 0 1px;
-}
+
 .switch{
    background: var(--body-color-light);
    border-radius: 20px;
@@ -74,7 +71,7 @@ header{
 }
 .navbar a{
    color: var(--letter-dark);
-   font-size: 1.1 rem;
+   font-size: clamp(.8rem, 3vh, .9rem);
    font-weight: 500;
    padding: 10px 10px;
    margin: 0px 30px;
@@ -192,12 +189,12 @@ display: none;
 }
 .navbar{
    position: absolute;
-      top:20px ;
+      top:5px ;
       display: flex;
       right: 100%;
       margin: 2%;
       width: 70%;
-      height: 40vh;
+      height: 50vh;
       background: var(--container-body-light);
       flex-direction: column;
       justify-content: flex-start;

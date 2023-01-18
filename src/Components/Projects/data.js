@@ -6,7 +6,7 @@ const data = [
       category: 'My Work',
       github: 'https://github.com/Mardelys/Gustosos-Ovejitos',
       link: 'https://gustotos-ovejitos.vercel.app',
-      description:'Se desarrolló una aplicación para venta de comida rápida, donde el usuario que la utilice puede ver el menú por categorias, seleccionarnas e ir guardandolas en un carrito, con la finalidad de hacer el pedido de sus productos, al finalizar se le envía un mensaje de whatsapp con el pedido al dueño dell comercio',
+      description:'Se desarrolló una aplicación para venta de comida rápida, donde el usuario que la utilice puede ver el menú por categorias, seleccionarnas e ir guardandolas en un carrito, con la finalidad de hacer el pedido de sus productos, al finalizar se le envía un mensaje de whatsapp con el pedido al dueño del comercio',
    },
    {
       id:2 ,
@@ -17,7 +17,7 @@ const data = [
       react:'obj.style',
       github: 'https://github.com/ElPardo16/wheel-of-doom-g5/tree/main',
       link: 'https://wheel-of-doom-g5.netlify.app/',
-      description:'El juego es desarrollado en el contexto de un proyecto real, donde el cliente desea un juego de sorteo de personas con temática de halloween, el reto fue desarrollar animaciones con css y javascript.',
+      description:'El juego es desarrollado en el contexto de un proyecto real, donde el cliente desea un juego de sorteo de personas con temática de halloween, el reto fue desarrollar animaciones con css, javascript y Gsap.',
    },
    {
       id:3 ,
@@ -61,7 +61,7 @@ const data = [
       react:'obj.style',
       github: 'https://github.com/Mardelys/Dashboard-Cripto',
       link: 'https://mardelys-dashboard-cripto.netlify.app/',
-      description:'Este desarrollo consume una api de criptomonedas y las refleja mediante tablas t gráficas, tambien posée un converson de moneda.',
+      description:'Este desarrollo consume una api de criptomonedas y las refleja mediante tablas y gráficas, tambien posée un converson de moneda.',
    },
    {
       id:7 ,
@@ -72,7 +72,7 @@ const data = [
       react:'obj.style',
       github: 'https://github.com/Mardelys/SabujCha',
       link: 'https://sabujcha-mardelys.netlify.app/',
-      description:'Esta landing page se desarrolló con la guía de las fotos de un mockup, y el reto fue lograr que quedara lo mas parecida posible,se suministraron tipos de fuente e imágenes.',
+      description:'Esta landing page se desarrolló con la guía de las fotos de un mockups, y el reto fue lograr que quedara lo mas parecida posible,se suministraron tipos de fuente e imágenes.',
    },
    {
       id:8 ,
@@ -83,7 +83,7 @@ const data = [
       react:'obj.style',
       github: 'https://github.com/ElPardo16/Fundacion-semillas-css',
       link: 'https://semillas-css.netlify.app/',
-      description:'Este proyecto es desarrollado en un contexto específico, un profesor que inicia sesión a un dashboard que le permite llevar el seguimiento de cada estudiante,.',
+      description:'Este proyecto es desarrollado en un contexto específico, un profesor que inicia sesión a un dashboard que le permite llevar el seguimiento de cada estudiante.',
    },
    {
       id:9 ,
