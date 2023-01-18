@@ -20,7 +20,7 @@ export default function NavBar() {
       <li><a href="#contact">CONTACTO</a></li>
    </div>
    <div className='main'>
-      <a href='#' className="btn-cv">CV</a>
+   <a target="_blank" href="https://drive.google.com/file/d/1Qbxpa9oDFY0-EC_YkwAAlgPzr0uCVtjt/view" className="btn-cv">CV</a>
       <a href='#' ><button className="switch"><BsFillMoonFill className='icon-theme'/><BsFillSunFill className='icon-theme'/></button></a>
       <div className= {`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)} >
       <span></span>
