@@ -1,4 +1,4 @@
-**Portafolio Mardelys Torres**
+# Portafolio Mardelys Torres
 
 
  
@@ -19,6 +19,14 @@ En esta sección se puede apreciar información de interés y muestra mis habili
 **PROJECTS**
 ![Projects-portfolio}](https://user-images.githubusercontent.com/114613889/213339213-2aee1ff3-98a8-44c8-802b-4b9c9895337e.png)
 En ésta sección se muestran los proyectos realizados, contiene un filtro para los proyectos que los selecciona por categoría (todos, mitrabajo o trabajo en equipo), en cada proyecto se encuentra el link de despliegue y  repositorio github específico,
+
+
+**Estructura de carpetas Portafolio**
+
+![estructuraportafolio](https://user-images.githubusercontent.com/114613889/213342005-7efa6a1a-a12b-4c43-abef-2a7337da6449.png)
+
+Se define  4 grandes carpetas, estas contienen las secciones que conforman la página, About me    -    Home     -   Nav/footer   - Projects.
+Cada carpeta contiene imágenes, los componentes jsx y sus respectivos estilos.
 
 
 
