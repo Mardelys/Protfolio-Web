@@ -29,7 +29,7 @@ export const ProjectsList = ({ projects }) => {
                   <div className="container-info">
                      <div className="info"><p>{project.description}</p></div>
                      <div className="icons">
-                        <a tarjet="_blank" href={project.link}><FiExternalLink className="icon-external" /></a>
+                        <a target="_blank" href={project.link}><FiExternalLink className="icon-external" /></a>
                         <a target="_blank" href={project.github}><FaGithub className="icon-external" /></a>
          </div>
                   </div>
