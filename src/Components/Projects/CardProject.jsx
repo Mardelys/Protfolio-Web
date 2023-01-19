@@ -18,20 +18,20 @@ export const ProjectsList = ({ projects }) => {
                    <img  className="img-project" src={require(`./images/img-${project.image}.png`)} alt="" />
                   </div>
                   <div className="icon-tecnology" >
-                     <ul>
+                     {/*<ul>
                         <li><FaHtml5 className="fab" /></li>
                         <li><FaCss3Alt className="fab" /></li>
                         <li><TbBrandJavascript className="fab" /></li>
-                        <li ><FaReact className="fab" /></li>
+         <li ><FaReact className="fab" /></li>
 
-                     </ul>
+                     </ul>*/}
                   </div>
                   <div className="container-info">
                      <div className="info"><p>{project.description}</p></div>
                      <div className="icons">
                         <a tarjet="_blank" href={project.link}><FiExternalLink className="icon-external" /></a>
                         <a target="_blank" href={project.github}><FaGithub className="icon-external" /></a>
-                     </div>
+         </div>
                   </div>
                </div>
 
