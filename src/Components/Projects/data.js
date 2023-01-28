@@ -6,7 +6,7 @@ const data = [
       category: 'My Work',
       github: 'https://github.com/Mardelys/Gustosos-Ovejitos',
       link: 'https://gustotos-ovejitos.vercel.app',
-      description:'Se desarrolló una aplicación para venta de comida rápida, donde el usuario que la utilice puede ver el menú por categorias, seleccionarnas e ir guardandolas en un carrito, con la finalidad de hacer el pedido de sus productos, al finalizar se le envía un mensaje de whatsapp con el pedido al dueño del comercio',
+      description:'Es una aplicación para venta de comida rápida, donde el usuario puede ver el menú por categorias, seleccionarnas e ir guardando su pedido en el carrito,al finalizar se envía un mensaje directo al whatsapp con su pedido',
    },
    {
       id:2 ,

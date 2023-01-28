@@ -1,7 +1,7 @@
 .home{
    display: grid;
    margin: auto;
-   grid-template-columns: 2.3fr 1.5fr;
+   grid-template-columns: 1.2fr .9fr;
    width: 70%;
    align-items: center;
    justify-content: center;
@@ -16,7 +16,7 @@ font-size:clamp(1rem, 2vw, 1.2rem) ;
    width: 50px;
 }
 .home .title-name{
-   font-size: clamp(2.5rem, 6vw, 4.2rem);
+   font-size: clamp(2.5rem, 6vw, 3.5rem);
    font-weight: 300;
    font-family: 'Oleo Script', Arial, Helvetica, sans-serif;
 }
@@ -26,7 +26,7 @@ font-size:clamp(1rem, 2vw, 1.2rem) ;
    color: var(--pink);
 }
 .home  h2{
-   font-size: clamp(1.5rem, 3vw, 1.8rem);
+   font-size: clamp(1rem, 3vw, 1.2rem);
    color: var(--orange);
 }
 .container-info p{
@@ -39,8 +39,9 @@ font-size:clamp(1rem, 2vw, 1.2rem) ;
 button, .download-cv{
    margin-top: 25px;
    color: var(--pink);
+   background: none;
    font-size: clamp(1rem, 3vh, 3rem) ;
-   border: var(--pink) 3px solid;
+   border: var(--pink) 2px solid;
    padding: 10px 30px;
    border-radius:10px ;
    font-weight: bold;
@@ -48,25 +49,23 @@ button, .download-cv{
    cursor: pointer;
 }
 .download-cv:hover{
-   background-color: #fa640d2f;
+   background-color: hsl(19, 100%, 97%);
    box-shadow: var(--pink) 0px 0px 15px;
 }
-.info-center{
-   text-align: center;
-}
+
 .img-ejp{
-   width: 90%;
+   width: 120%;
    margin: 0;
    padding:0 ;
-   border-bottom-right-radius:60% ;
-   border-bottom-left-radius: 10%;
+   
 }
+
 .container-photo{
-   background-image: var(--gradient-dark);
   border-top-left-radius: 100%;
   border-bottom-right-radius: 100%;
   border-top-right-radius: 30%;
   border-bottom-left-radius: 30%;
+  background:linear-gradient(#fa640d36, rgba(253, 141, 210, 0.493));
 
 }
 

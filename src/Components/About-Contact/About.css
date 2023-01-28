@@ -38,7 +38,8 @@
   font-size: clamp(1.1rem, 2vw, 1.1rem);
   font-family: "Lato";
   color: var(--body-color-dark);
-  text-align: left;
+  text-align: justify;
+  line-height: 25px;
  
 }
 .section-1 h2{
@@ -107,7 +108,8 @@
    
 }
 .container-contact p{
-   padding-top:2%
+   padding-top:2%;
+   text-align: justify;
    };
 
 
@@ -137,7 +139,7 @@
 /**---MEDIA QUERIES------*/
 @media (max-width:1280px){
    .section-1, .section-2, .container-contact p{
-      width: 80%;
+      width: 90%;
       transition: all .50s ease;
    }
 }
@@ -172,6 +174,13 @@
    border-radius: 50%;
    position: absolute;
    left: 5%;
+}
+.container-contact div{
+   width: 95%;
+  
+}
+.container-contact p{
+   text-align: justify;
 }
 .section-1 h2{
    margin: 40px 0;

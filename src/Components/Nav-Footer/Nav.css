@@ -95,7 +95,7 @@ header{
    margin-left: 10px;
    color: var(--pink);
    font-size: 1.1 rem ;
-   border: var(--pink) 3px solid;
+   border: var(--pink) 1.5px solid;
    padding: 10px 30px;
    border-radius:10px ;
    font-weight: bold;
