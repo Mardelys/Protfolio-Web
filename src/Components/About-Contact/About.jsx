@@ -1,9 +1,10 @@
 import React from "react"
 import './About.css'
 import { IoRemoveOutline, IoLogoVercel } from 'react-icons/io5'
-import { TbBrandJavascript } from 'react-icons/tb'
+import { TbBrandJavascript, TbBrandNextjs } from 'react-icons/tb'
+import { SiMongodb, SiMysql, SiPostman } from 'react-icons/si'
 import {SiNetlify } from 'react-icons/si'
-import { FaHtml5, FaCss3Alt, FaReact, FaGithubAlt,FaGitAlt } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaReact, FaGithubAlt,FaGitAlt,FaFigma, FaNodeJs, FaTrello } from 'react-icons/fa'
 import './About.css'
 
 
@@ -18,7 +19,7 @@ export default function AboutMe() {
             <div>
                <h2 ><IoRemoveOutline className="outline" />Acerca de mí</h2>
                <p>Hola, mi nombre es Mardelys Torres, disfruto creando y desarrollando sitios web, me gusta el diseño de interfaces y ponerlo en práctica cada vez que desarrollo un proyecto me llena de alegría y satisfacción al apreciar cuánto he avanzado con el tiempo y práctica. Empecé a aprender como autodidacta en 2021 y logré aprender HTML y css, sin embargo, aprendí mucho tomando el bootcamp de programación de Educamás "Programate Academy" de donde soy egresada.</p>
-               <p>Mi enfoque principal es crear aplicaciones que sean útiles y agradables para el usuario, desarrollar proyectos completos y que satisfagan las necesidades del cliente. Además de todo, obtener nuevos conocimientos y habilidades por cada reto que completo satisfactoriamente y sobre cualquier cosa siempre dar lo mejor de mi.</p>
+               <p>Mi enfoque principal es crear aplicaciones que sean útiles y agradables para el usuario, desarrollar proyectos completos y que satisfagan las necesidades del cliente. Además de todo, obtener nuevos conocimientos y habilidades por cada reto que completo satisfactoriamente y sobre cualquier ambito siempre dar lo mejor de mi.</p>
             
 </div >
          </div>
@@ -36,6 +37,13 @@ export default function AboutMe() {
                   <li><FaGitAlt/></li>
                   <li><IoLogoVercel/></li>
                   <li><SiNetlify/></li>
+                  <li><SiMongodb/></li>
+                  <li><SiMysql/></li>
+                  <li><FaFigma/></li>
+                  <li><SiPostman/></li>
+                  <li><FaNodeJs/></li>
+                  <li><FaTrello/></li>
+                  <li><TbBrandNextjs/></li>
                </ul>
             </div>
          </div>

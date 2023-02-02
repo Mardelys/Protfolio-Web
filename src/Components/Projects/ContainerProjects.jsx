@@ -10,7 +10,7 @@ import data from './data';
 
 function RenderProjects() {
    const allCategories = [
-      'All',
+      'Todos',
       ...new Set(data.map(project => project.category)),
    ];
 
@@ -18,7 +18,7 @@ function RenderProjects() {
    const [projects, setProjects] = useState(data);
 
    const filterCategory = (category) => {
-      if (category === 'All') {
+      if (category === 'Todos') {
          setProjects(data)
          return
       }

@@ -48,7 +48,7 @@
 }
 .section-2 .icon-skills{
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(5, 1fr);
    column-gap: 3%;
    padding: 3% 3%;
    font-size: clamp(2rem, 5vw, 3rem);
@@ -95,6 +95,25 @@
 .icon-skills > li:nth-child(8){
    color: #00b7ff;
 }
+.icon-skills > li:nth-child(9){
+   color: #009c1a;
+}
+.icon-skills > li:nth-child(10){
+   color: #26a4d6;
+}
+.icon-skills > li:nth-child(11){
+   color: #200e86;
+}
+.icon-skills > li:nth-child(12){
+   color: #ff5e00;
+}
+.icon-skills > li:nth-child(13){
+   color: #009c1a;
+}
+.icon-skills > li:nth-child(14){
+   color: #56009c;
+}
+
 /**-----------CONTACT-------------**/
 
 .container-contact{
